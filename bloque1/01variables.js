@@ -12,7 +12,8 @@ var y = 3;
 // x: 2, y: 3
 // resultado: x: 3, y: 2
 // funcion de swap
-var z = y;
+
+var z = y;  
 y = x;
 x = z;
 
