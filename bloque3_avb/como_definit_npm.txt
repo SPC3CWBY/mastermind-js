@@ -1,0 +1,27 @@
+----- Iniciar un proyecto npm ----
+
+en terminal poner 
+  
+    npm init
+
+ingresamos los datos y se genera el .json
+
+Instalar una libreria de Node.js 
+    require('name_library');
+
+para instalar librerias 
+en consola poner: 
+    
+    npm install
+
+lo cual genera el package-lock.json
+
+para librerias de terceros utilizams su respectivo comando
+example:
+
+    npm install moment --save   # npm 
+    // Siempre poner el --save
+
+y despues se vera reflejado en package.json como 
+ ---- dependencies ------
+    nombre de la libreria : version
